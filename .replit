@@ -25,3 +25,7 @@ pattern = "**/*.rb"
 
 [languages.ruby.languageServer]
 start = "solargraph stdio"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
